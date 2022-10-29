@@ -5,7 +5,6 @@ import {ORM} from "redux-orm";
 const orm = new ORM;
 
 const rootReducer = combineReducers({
-    orm: createReducer(orm), // This will be the Redux-ORM state.
-    // … potentially other reducers
+    orm: createReducer(orm),
 });
-const store = createStore(rootReducer);
+export const store = createStore(rootReducer);
