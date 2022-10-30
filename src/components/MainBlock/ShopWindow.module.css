@@ -1,0 +1,80 @@
+.categoriesContainer {
+    width: 90%;
+    margin: 30px auto 0 auto;
+
+    border: 1px solid black;
+}
+
+.categories {
+    display: inline;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #2d2d2f;
+    margin: 0 0 0;
+}
+
+.btnSettings {
+    display: inline;
+    background: transparent;
+    border: none;
+    border-radius: 99em;
+    outline: none;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #2967ff;
+    margin: 0 0 0 107px;
+}
+
+.categoriesList {
+    margin: 30px auto 0;
+}
+
+.btnCategory {
+    width: fit-content;
+    height: 24px;
+    /*background: ${({ colorIndex }) => colors[colorIndex]};*/
+    border: none;
+    border-radius: 99em;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 6px 20px 0;
+    padding: 2px 9px;
+}
+
+
+.productsContainer {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.productsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(212px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btnLoadMore {
+    width: 292px;
+    height: 50px;
+    display: block;
+    background: #f0f4fb;
+    border: none;
+    border-radius: 99em;
+    outline: none;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #727280;
+    margin: 30px auto 55px auto;
+}

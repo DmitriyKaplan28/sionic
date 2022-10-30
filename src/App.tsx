@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './App.module.css';
 import {Header} from "./components/Header/Header";
-import {MainBlock} from "./components/MainBlock/MainBlock";
+import {ShopWindow} from "./components/MainBlock/ShopWindow";
 import {SideBar} from "./components/SideBar/SideBar";
 import {Footer} from "./components/Footer/Footer";
 import {Basket} from "./components/Basket/Basket";
@@ -16,7 +16,7 @@ function App() {
                 <Header/>
                 <Routes>
                     <Route path={'/'} element={<Navigate to={"/products"}/>}/>
-                    <Route path="/products" element={<MainBlock/>}/>
+                    <Route path="/products" element={<ShopWindow/>}/>
                     <Route path="/basket" element={<Basket/>}/>
                     <Route path="/delivery" element={<Delivery/>}/>
                     <Route path="/ordershistory" element={<OrdersHistory/>}/>
