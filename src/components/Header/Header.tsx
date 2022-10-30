@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Header.module.css'
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import placeIcon from '../../common/assets/images/place.svg'
 import basketIcon from '../../common/assets/images/basket.svg'
 import avatarIcon from '../../common/assets/images/avatar.png'
@@ -22,10 +22,12 @@ export const Header = () => {
                     <SearchIcon/>
                 </button>
             </div>
-            <div className={style.basket}>
-                <img src={basketIcon} alt={'basket'} className={style.basketIcon}/>
-                <div className={style.count}>10+</div>
-            </div>
+            <NavLink to={"/basket"}>
+                <div className={style.basket}>
+                    <img src={basketIcon} alt={'basket'} className={style.basketIcon}/>
+                    <div className={style.count}>10+</div>
+                </div>
+            </NavLink>
             <div className={style.avatar}>
                 <img src={avatarIcon} alt="user avatar" className={style.avatarIcon}/>
             </div>

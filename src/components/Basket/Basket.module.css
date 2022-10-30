@@ -1,15 +1,125 @@
-.productsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 30px;
-
-    position: absolute;
-    width: 916px;
-    height: 1302px;
-    left: 50px;
-    top: 199px;
+.basketContainer {
+    width: 90%;
+    margin: 30px auto 0 auto;
 
     border: 1px solid black;
+}
+
+.basketHeader {
+    display: flex;
+    align-items: center;
+}
+
+.basketTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2d2d2f;
+    margin-right: 30px;
+}
+
+.clearBasket {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ff2d87;
+    cursor: pointer;
+}
+
+.basketContent {
+    width: 100%;
+    border: 1px solid #aec2ea;
+    border-radius: 20px;
+    margin: 30px 0;
+    border-top: 0;
+    padding-bottom: 30px;
+}
+
+.basketContentTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+    border: 1px solid #aec2ea;
+    border-radius: 20px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.btnBuy {
+    background-color: #2967FF;
+    padding: 16px 64px;
+    border-radius: 50px;
+    color: #fff;
+    border: 0 solid #000;
+    font-size: 14px;
+}
+
+.basketItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 60px;
+    position: relative;
+}
+
+.basketItem::after {
+    content: '';
+    display: block;
+    width: calc(100% - 120px);
+    height: 1px;
+    background-color: #aec2ea;
+    position: absolute;
+    bottom: 0;
+}
+
+.itemImg {
+    width: 60px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.itemTitle {
+    width: 290px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2d2d2f;
+}
+
+.itemNumber {
+    width: 135px;
+    height: 44px;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #aec2ea;
+    border-radius: 44px;
+}
+
+.itemPrice {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.basketItemSpan {
+    color: #aec2ea;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.basketItemInput {
+    max-width: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    text-align: center;
+    border: none;
+    color: #aec2ea;
 }
