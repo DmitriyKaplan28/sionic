@@ -1,9 +1,118 @@
 .headerContainer {
-    position: absolute;
-    width: 1015px;
-    height: 82px;
-    left: 0;
-    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
 
     border: 1px solid black;
+}
+
+.logo {
+    color: #2D2D2F;
+    font-size: 37px;
+    line-height: 43px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.placeIcon {
+    width: 20px;
+    height: 20px;
+    margin: auto 5px auto 0;
+}
+
+.country > svg {
+    margin-right: 5px;
+}
+
+.country .countryName {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 92px;
+    overflow: hidden;
+}
+
+.searchBar {
+    position: relative;
+    flex-grow: 1;
+    margin: 0 15px 0 20px;
+}
+
+.searchBar .inputSearch {
+    width: 85%;
+    border: 1px solid #F0F4FB;
+    border-radius: 36px;
+    padding: 15px 70px 15px 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.searchBar .inputSearch:focus-visible {
+    outline: none;
+}
+
+.searchBar .btnSearch {
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    transform: translateY(-50%);
+    background: #F0F4FB;
+    border-radius: 41px;
+    padding: 10px 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.basket {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 50px;
+    min-width: 50px;
+    height: 50px;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 1px solid #727280;
+    cursor: pointer;
+}
+
+.basketIcon {
+    position: relative;
+    left: -1px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    color: #2967FF;
+}
+
+.avatarWrapper {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.avatarIcon{
+    border-radius: 50%;
+    margin-left: 5px;
 }

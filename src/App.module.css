@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content > div:first-child {
+  flex-grow: 1;
+}
+
+.mainContent {
+}

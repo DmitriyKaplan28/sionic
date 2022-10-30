@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './SideBlock.module.css'
+import style from './SideBar.module.css'
 
-export const SideBlock = () => {
+export const SideBar = () => {
     return (
         <div className={style.sideContainer}>
             SideBlock

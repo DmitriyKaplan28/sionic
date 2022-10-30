@@ -1,0 +1,6 @@
+.sideContainer {
+    flex: 0 1 350px;
+    background-color: #ccc;
+
+    border: 1px solid black;
+}
