@@ -1,0 +1,9 @@
+.sideContainer {
+    position: absolute;
+    width: 351px;
+    left: 1015px;
+    top: 0;
+    bottom: -46.59%;
+
+    border: 1px solid black;
+}

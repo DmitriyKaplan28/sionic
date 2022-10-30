@@ -1,0 +1,9 @@
+.headerContainer {
+    position: absolute;
+    width: 1015px;
+    height: 82px;
+    left: 0;
+    top: 0;
+
+    border: 1px solid black;
+}

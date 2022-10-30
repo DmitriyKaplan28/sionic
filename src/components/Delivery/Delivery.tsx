@@ -2,7 +2,7 @@ import React from 'react';
 import style from './MainBlock.module.css'
 import {Product} from "../Product/Product";
 
-export const MainBlock = () => {
+export const Delivery = () => {
     return (
         <div className={style.mainContainer}>
             <Product
