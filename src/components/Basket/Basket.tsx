@@ -24,9 +24,9 @@ export const Basket = () => {
                          alt=""/>
                     <p className={style.itemTitle}>product</p>
                     <div className={style.itemNumber}>
-                        <span>-</span>
+                        <span className={style.basketItemSpan}>-</span>
                         <input className={style.basketItemInput} type="number" defaultValue={1}/>
-                        <span>+</span>
+                        <span className={style.basketItemSpan}>+</span>
                     </div>
                     <p className={style.itemPrice}>100 &#8381;</p>
                     <span className={style.basketItemSpan}>
