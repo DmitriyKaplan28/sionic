@@ -12,6 +12,8 @@
     flex: none;
     order: 2;
     flex-grow: 0;
+
+    border: 1px solid red;
 }
 
 .productDescription {
