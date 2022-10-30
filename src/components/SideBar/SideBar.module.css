@@ -1,0 +1,46 @@
+.sideContainer {
+    border-left: 1px solid #f0f4fb;
+    padding: 0 24px 0 16px;
+}
+
+.sideBanner {
+    width: 311px;
+    height: 143px;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #ff2d87;
+    border-radius: 20px;
+    margin: 28px 0 33px 0;
+}
+
+.image {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: 32px;
+    left: 2px;
+}
+
+.h2 {
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 600;
+    color: #2967ff;
+    margin: 21px 0 10px 97px;
+}
+
+.btn {
+    width: 194px;
+    height: 40px;
+    background: #2967ff;
+    border: none;
+    border-radius: 99em;
+    outline: none;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 0 97px;
+    padding: 0;
+}
+

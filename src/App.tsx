@@ -2,7 +2,7 @@ import React from 'react';
 import style from './App.module.css';
 import {Header} from "./components/Header/Header";
 import {MainBlock} from "./components/MainBlock/MainBlock";
-import {SideBar} from "./components/SideBlock/SideBar";
+import {SideBar} from "./components/SideBar/SideBar";
 import {Footer} from "./components/Footer/Footer";
 import {Basket} from "./components/Basket/Basket";
 import {Delivery} from "./components/Delivery/Delivery";
