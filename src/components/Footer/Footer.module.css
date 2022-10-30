@@ -4,3 +4,72 @@
     border: 1px solid black;
 }
 
+.logo {
+    color: #2D2D2F;
+    font-size: 37px;
+    line-height: 43px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.footerMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftPart {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 40px 50px;
+}
+
+.rightPart {
+    flex: 0 1 350px;
+    padding: 40px 0;
+}
+
+.rightPart .appDownloadIcons {
+    display: flex;
+    margin: 10px 0;
+}
+
+.rightPart .appDownloadIcons > div {
+    margin-right: 20px;
+}
+
+.rightPart .appDownloadIcons > *:last-child {
+    margin-right: 0;
+}
+
+.socialMediaIcons {
+    display: flex;
+    margin: 10px 0;
+}
+
+.socialMediaIcons > div {
+    display: flex;
+    margin-right: 15px;
+}
+
+.socialMediaIcons > div:last-child {
+    margin-right: 0;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBottom a {
+    display: inline-block;
+    margin: 10px 10px 35px;
+    text-decoration: none;
+    color: #8D8D8E;
+    transition: all .3s ease-out;
+}
+
+.footerBottom a:hover {
+    color: #2D2D2F;
+}
