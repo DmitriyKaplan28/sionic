@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Basket.module.css'
 import deleteIcon from '../../common/assets/images/deleteIcon.png'
+import {NavLink} from "react-router-dom";
 
 
 export const Basket = () => {
@@ -16,7 +17,9 @@ export const Basket = () => {
                         <p>Стоимость корзины:</p>
                         <h3>100 &#8381;</h3>
                     </div>
-                    <button className={style.btnBuy}>Оформить</button>
+                    <NavLink to={'/delivery'}>
+                        <button className={style.btnBuy}>Оформить</button>
+                    </NavLink>
                 </div>
                 <div className={style.basketItem}>
                     <img className={style.itemImg}

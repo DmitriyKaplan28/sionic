@@ -1,15 +1,59 @@
-.productsContainer {
+.headerTitle {
+    font-weight: 700;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.deliveryContainer {
+    border: 1px solid #aec2ea;
+    border-radius: 1rem;
+    min-width: 450px;
+}
+
+.deliveryList {
+    height: 4rem;
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid #aec2ea;
+    border-radius: 1rem;
+}
+
+.deliveryList .info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 30px;
+}
 
-    position: absolute;
-    width: 916px;
-    height: 1302px;
-    left: 50px;
-    top: 199px;
+.deliveryList > span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 
-    border: 1px solid black;
+.deliveryList .total {
+    font-size: 1.2rem;
+}
+
+.deliveryList button {
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: #2967ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 2rem;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.deliveryList button:hover {
+    background-color: #ffffff;
+    color: #2967ff;
+    border: 1px solid #2967ff;
+}
+
+.ordersList {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
 }

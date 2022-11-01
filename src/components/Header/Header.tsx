@@ -28,9 +28,11 @@ export const Header = () => {
                     <div className={style.count}>10+</div>
                 </div>
             </NavLink>
-            <div className={style.avatar}>
-                <img src={avatarIcon} alt="user avatar" className={style.avatarIcon}/>
-            </div>
+            <NavLink to={'/ordershistory'}>
+                <div className={style.avatar}>
+                    <img src={avatarIcon} alt="user avatar" className={style.avatarIcon}/>
+                </div>
+            </NavLink>
         </div>
     );
 };

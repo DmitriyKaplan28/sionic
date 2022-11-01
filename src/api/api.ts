@@ -1,4 +1,5 @@
 import axios from "axios";
+import {CategoryType, ProductType} from "../store/orm/types/models-types";
 
 export const instance = axios.create({
     baseURL: 'https://test2.sionic.ru/api/',
@@ -14,17 +15,4 @@ export const categoryAPI = {
     getCategories() {
         instance.get<CategoryType[]>('categories')
     }
-}
-
-//types
-type ProductType = {
-    id: number
-    name: string
-    category_id: number
-    description: string
-}
-
-type CategoryType = {
-    id: number
-    name: string
 }
