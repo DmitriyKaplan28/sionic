@@ -8,6 +8,7 @@ import googlePlayIcon from '../../common/assets/images/googlePlayIcon.svg'
 import appStoreIcon from '../../common/assets/images/appStoreIcon.svg'
 import {FooterIcon} from "./FooterIcon/FooterIcon";
 
+
 export const Footer = () => {
     return (
         <div className={style.footerContainer}>
