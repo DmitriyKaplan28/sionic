@@ -6,7 +6,6 @@ import basketIcon from '../../common/assets/images/basket.svg'
 import avatarIcon from '../../common/assets/images/avatar.png'
 import {ReactComponent as SearchIcon} from '../../common/assets/images/searchIcon.svg';
 
-
 export const Header = () => {
     return (
         <div className={style.headerContainer}>
