@@ -5,7 +5,6 @@ import imageSweetBackground from "../../common/assets/images/newCollectionSweets
 import {NewColletion} from "./NewCollection/NewColletion";
 
 export const SideBar = () => {
-
     const backgroundStyleSweet = {
         backgroundImage: `url(${imageSweetBackground})`,
     };
