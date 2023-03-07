@@ -4,6 +4,7 @@ import OrderForDelivery from "./OrderForDelivery/OrderForDelivery";
 import {RootState} from "../../store/orm/models/redux-orm-store";
 import {useSelector} from "react-redux";
 
+
 export const Delivery = () => {
     const cartData = useSelector((state: RootState) => state.shop.cart);
     const totalPrice = useSelector((state: RootState) => state.shop.total);
