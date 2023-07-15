@@ -9,7 +9,7 @@ import {Delivery} from "./components/Delivery/Delivery";
 import {OrdersHistory} from "./components/OrdersHistory/OrdersHistory";
 import {Navigate, Route, Routes} from "react-router-dom";
 
-
+//mobile commit test
 
 
 function App() {
