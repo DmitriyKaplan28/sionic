@@ -10,8 +10,6 @@ import {OrdersHistory} from "./components/OrdersHistory/OrdersHistory";
 import {Navigate, Route, Routes} from "react-router-dom";
 
 
-
-
 function App() {
     return <div className={style.app}>
         <div className={style.content}>
