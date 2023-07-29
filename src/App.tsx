@@ -8,7 +8,7 @@ import {Basket} from "./components/Basket/Basket";
 import {Delivery} from "./components/Delivery/Delivery";
 import {OrdersHistory} from "./components/OrdersHistory/OrdersHistory";
 import {Navigate, Route, Routes} from "react-router-dom";
-
+//test change 
 
 function App() {
     return <div className={style.app}>
