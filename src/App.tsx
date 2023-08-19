@@ -7,8 +7,8 @@ import {Footer} from "./components/Footer/Footer";
 import {Basket} from "./components/Basket/Basket";
 import {Delivery} from "./components/Delivery/Delivery";
 import {OrdersHistory} from "./components/OrdersHistory/OrdersHistory";
-import {Navigate, Route, Routes} from "react-router-dom";
-//test change 
+import {Navigate, Route, Routes} from "react-router-dom"
+
 
 function App() {
     return <div className={style.app}>
