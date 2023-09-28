@@ -8,8 +8,6 @@ import {store} from "./store/store";
 import {HashRouter} from "react-router-dom";
 
 
-
-//check
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
