@@ -7,7 +7,7 @@ import {Provider} from "react-redux";
 import {store} from "./store/store";
 import {HashRouter} from "react-router-dom";
 
-
+//I'm testing commits on mobile device 
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
